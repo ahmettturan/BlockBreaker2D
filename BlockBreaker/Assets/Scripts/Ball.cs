@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace BallController 
+{
 public class Ball : MonoBehaviour
 {
     //config params
@@ -46,4 +48,5 @@ public class Ball : MonoBehaviour
 
         transform.position = paddlePos + paddleToBallVector;
     }
+}
 }
